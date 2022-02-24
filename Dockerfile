@@ -8,4 +8,4 @@ COPY requirements.txt .
 RUN pip3 install --no-cache -r requirements.txt
 
 COPY piratebay.py .
-CMD ["python3", "piratebay.py"]
+CMD ["python3", "nyaasi.py"]
